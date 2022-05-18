@@ -1,0 +1,48 @@
+body {
+    background:lightgoldenrodyellow;
+    font-family: arial, sans-serif;
+    background-color:lightcyan;
+    font-size: 0.75em;
+  }
+
+  .heading {
+    color: #0a0a09;
+    text-align: center;
+  }
+   .button{
+      color:black;
+      text-align: left;
+      background-color:yellow;
+  }
+
+  .back{
+    background-color: #f5f4a5;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #a59a61;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddc9d;
+  }
+
+  @media (min-width: 768px) {
+  
+    .specials {
+      display: flex;
+    }
+  
+    body {
+      font-size: 1em;
+    }
+  
+  }
